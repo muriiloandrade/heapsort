@@ -30,12 +30,10 @@ public class HeapSortMain {
             
             System.out.print("\nVetor depois: ");
             heapsort.imprimirVetor(vetor);
-            /*for(int i : vetor)
-                System.out.print(i + " ");*/
             
             System.out.print("\nTempo de execução: ");
             System.out.print((tempoFinal - tempoInicial)/1000000 + " ms\n");
-            //System.out.println("Quantidade de comparações: " + heapsort.comp);
+            System.out.println("Quantidade de comparações: " + heapsort.comp);
         }
     }
 }
